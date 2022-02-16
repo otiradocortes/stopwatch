@@ -1,2 +1,2 @@
 # stopwatch
-Stopwatch program for msp exp430fr6989 microcontroller
+A stopwatch program made for the msp exp430fr6989 launchpad kit. The original program was written in Code Composer Studio 10.1 to allow communication to the board. This program uses the system clock as the counter while remaining in low power mode(lpm). The buttons on the board correspond to the stop and reset functions which raise interrupt flags, pulling the program out of lpm, running the routine, then returning to lpm.
